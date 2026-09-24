@@ -7,12 +7,15 @@
 #
 .utmp/
 /[Ll]ibrary/
+/[Ff]iltered[Cc]ache/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
+/[Cc]heckout/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/[尝艺]/
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
@@ -79,9 +82,17 @@ mono_crash.*
 
 # Crashlytics generated file
 crashlytics-build.properties
+clup.json
+
+# Package Editor
+/Packages/manifest.json.user
+/Packages/packages-lock.json
 
 # TestRunner generated files
 InitTestScene*.unity*
+
+# Scaffolding or Schema
+/[Uu][Ii][Ee]lements[Ss]chema/
 
 # Addressables default ignores, before user customizations
 /ServerData
@@ -104,3 +115,7 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# OS files
+.DS_Store
+Thumbs.db

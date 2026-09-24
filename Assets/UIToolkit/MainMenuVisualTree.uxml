@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=507b409e86ce8d045b55fbe8db685418&amp;type=3#MainMenuStyle"/>
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UIToolkit/Background.png?fileID=2800000&amp;guid=70851977aaad59b43ad69ad5b0e663f0&amp;type=3#Background&quot;);">
+        <ui:Label text="Cartographer &#10;of&#10; Impossible Space" name="Header" class="header" style="-unity-text-align: upper-center; width: 818px; font-size: 100px; -unity-font-definition: url(&quot;project://database/Assets/UIToolkit/Worldstar.ttf?fileID=12800000&amp;guid=987712d0796863c4984da52eda1da24f&amp;type=3#Worldstar&quot;);"/>
+        <ui:Button text="Start" name="StartGameButton" class="button" style="-unity-font-definition: url(&quot;project://database/Assets/UIToolkit/Worldstar.ttf?fileID=12800000&amp;guid=987712d0796863c4984da52eda1da24f&amp;type=3#Worldstar&quot;);"/>
+        <ui:Button text="Exit" name="ExitButton" class="button" style="-unity-font-definition: url(&quot;project://database/Assets/UIToolkit/Worldstar.ttf?fileID=12800000&amp;guid=987712d0796863c4984da52eda1da24f&amp;type=3#Worldstar&quot;);"/>
+    </ui:VisualElement>
+</ui:UXML>
